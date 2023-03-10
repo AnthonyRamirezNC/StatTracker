@@ -10,13 +10,11 @@ public class Dataset {
     public int rareCandy = 0;
 
     public Dataset(String currentDate, int battles, int wins, int StardustEarned, int rareCandy) {
-        System.out.println("Creating new dataset...");
         this.CurrentDate = currentDate;
         this.battles = battles;
         this.wins = wins;
         this.StardustEarned = StardustEarned;
         this.rareCandy = rareCandy;
-        System.out.println("Dataset created successfully!\n" + getStats());
     }
     public String getStats() {
         String returnStr = "Getting stats...\n";
